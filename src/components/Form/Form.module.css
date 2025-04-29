@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+.input, .button {
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    line-height: normal;
+    font-size: 1.125rem;
+    font-family: 'Jost', sans-serif;
+}
+.button {
+    background-color: #141024;
+    color: #fff;
+    font-size: 1.125rem;
+    cursor: pointer;
+}

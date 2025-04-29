@@ -1,0 +1,13 @@
+.numbers-item {
+    max-width: 260px;
+}
+.number {
+    color: #D52027;
+    font-size: 4.375rem;
+    font-weight: 600;
+    line-height: 160%;
+}
+.number-descr {
+    color: rgba(20, 16, 35, 70%);
+    font-size: 1.125rem;
+}

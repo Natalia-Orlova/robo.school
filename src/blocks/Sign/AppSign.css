@@ -1,0 +1,38 @@
+.sign {
+    background: #D52027 url(imgs/sign-bg.svg) repeat-x bottom / contain;
+    padding: 86px 20px;
+    color: #fff;
+}
+.sign-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sign-left {
+   max-width: 40%; 
+}
+.sign-text {
+    font-size: 2.26rem;
+    line-height: 130%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sign-info {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 911px) {
+    .sign {
+        padding: 40px 10px;
+    }
+    .sign-container {
+        justify-content: center;
+    }
+    .sign-left {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

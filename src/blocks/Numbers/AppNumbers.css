@@ -1,0 +1,32 @@
+.numbers {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+.numbers-title {
+    font-size: 1.875rem;
+    color: #141024;
+    line-height: 160%;
+    max-width: 74%;
+    margin-bottom: 60px;
+}
+.numbers-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 911px) {
+    .numbers {
+        padding: 60px 10px;
+    }
+    .numbers-title {
+        font-size: 20px;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .numbers-item {
+        text-align: center;
+    }
+}

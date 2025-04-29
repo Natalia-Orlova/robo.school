@@ -1,0 +1,58 @@
+.result-item {
+  max-width: 360px;
+  position: relative;
+}
+.result-item__title {
+  font-size: 1.5rem;
+  color: #141024;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.result-item__descr {
+  font-size: 1.125rem;
+  color: rgba(20, 16, 36, 70%);
+}
+.tooltip {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: #fff;
+  color: #141024;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Расположение под элементом */
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 911px) {
+  .result-item__title {
+    position: relative;
+  }
+  .tooltip {
+    position: unset;
+  }
+  .tooltiptext {
+    width: max-content;
+    font-size: 14px;
+    padding: 2px 8px;
+    bottom: 125%; /* Расположение под элементом */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

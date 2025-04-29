@@ -1,0 +1,31 @@
+.packages {
+    max-width: 1200px;
+    margin: 0 auto 120px;
+    padding: 0 20px;
+}
+.packages-list {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+.packages-title {
+    font-weight: 600;
+    font-size: 3.125rem;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 911px) {
+    .packages {
+        padding: 0 10px 60px;
+        margin: 0;
+    }
+    .packages-title {
+        font-size: 30px;
+        line-height: 140%;
+        text-align: center;
+    }
+}
